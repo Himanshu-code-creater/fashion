@@ -1,9 +1,9 @@
-pipeline {
+ pipeline {
     agent any
     stages {
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/Himanshu-code-creater/fashion.git'
+		git branch: 'main', url: 'https://github.com/Himanshu-code-creater/fashion.git'
             }
         }
         stage('Build Docker Image') {

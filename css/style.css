@@ -1,0 +1,2071 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    overflow-x: hidden;
+}
+:root{
+    --primary-color: #fff;
+    --secondary-color:black;
+    --orange-color:#FF7315;
+  
+}
+
+.upto{
+    font-weight: bold;
+    font-size: 15px;
+    color: var(--primary-color);
+}
+
+
+
+
+.fashion{
+    color: var(--primary-color);
+    top: 320px;
+    left: 90px;
+    position: absolute;
+    font-weight: bold;
+}
+.fashion h1{
+    font-size: 4rem;
+    padding: 0 170px;
+}
+
+.himfashion{
+    color: var(--primary-color);
+    top: 320px;
+    position: absolute;
+    padding: 0 20px;
+
+    
+    font-weight: bold;
+}
+.himfashion h1{
+    font-size: 3.5rem;
+}
+
+.owlbtn{
+    text-decoration: none;
+    padding: 15px 30px;
+    font-weight: 600;
+    border-radius: 40px;
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    transition: .5s;
+    z-index: 4!important;
+    position: absolute;
+    top: 500px;
+    left: 265px;
+}
+.owlbtn:hover{
+    background-color: var(--orange-color)!important;
+    color: var(--primary-color);
+}
+.brandmargin{
+    position: absolute;
+    bottom: 90px;
+}
+.mynavmargin{
+    position: absolute;
+    top: 45px;
+    /* left: 30px; */
+}
+.search{
+    position: absolute;
+    top: 80px;
+    left: 10px;
+    color: var(--primary-color);
+    display: flex;
+}
+.myhere{
+    margin-top: 5px!important;
+    font-size: 1.4rem;
+}
+.mycart{
+    font-weight: bold;
+    font-size: 15px;
+    color: var(--primary-color); 
+}
+.myfa{
+    display: inline;
+    background-color: rgba(0,0,0,0.7);
+    color: var(--primary-color);
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 20px;
+    display: inline-block;
+    transition: .5s;
+}
+.myfa:hover{
+    background-color: var(--orange-color);
+    cursor: pointer;
+}
+.myuser{
+    display: inline-block;
+    padding:10px 15px;
+    border-radius: 80px;
+    margin-right: 10px;
+    font-weight: bold;
+    color: var(--primary-color);
+    background-color: rgba(0,0,0,0.7);
+    transition: .5s;
+
+}
+.myuser:hover{
+    background-color: var(--orange-color);
+    cursor: pointer;
+}
+.mynav{
+    color: var(--primary-color)!important;
+    transition: .5s!important;
+}
+.mynav:hover{
+    color: var(--orange-color)!important;
+}
+.navcolor{
+    padding: 0px;
+    background-color: rgba(0,0,0,0.0)!important;
+}
+.container{
+    width: 100%;
+}
+.item1{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.7)),url(../images/bg2.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.item2{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.7)),url(../images/banner2.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.item3{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.7)),url(../images/banner3.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.item4{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.7)),url(../images/banner4.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.himimg{
+    width: 100%;
+    height: 100vh;
+
+    background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.7)),url(../images/left3.jpg)!important; 
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    
+}
+.with-us{
+    color: var(--secondary-color);
+}
+
+
+/* ----------- */
+/* GEID GALLEY */
+/* ----------- */
+
+.parent{
+    display: grid;
+    grid-template-rows: 400px 250px 400px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+ 
+    grid-gap: 1rem;
+
+
+}    
+.one{
+    background-image: url(../images/bg2.jpg);
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    grid-area: 1 /2/span 1/span 2;
+}
+
+
+.two{
+    background-image: url(../images/shop-11.jpg);
+    background-position: center;
+    background-size: cover;
+    grid-area: 2 /2/span/span 2;
+
+}
+.three{
+    background-image: url(../images/banner4.jpg);
+    background-position: center;
+    background-size: cover;
+    
+ 
+}
+.four{
+    background-image: url(../images/bg3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.five{
+    background-image: url(../images/banner2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.six{
+    background-image: url(../images/shop-5.jpg);
+
+    background-position: center;
+    background-size: cover;
+}
+.seven{
+    background-image: url(../images/left3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.eight{
+    background-image: url(../images/shop-88.jpg);
+ 
+    background-position: center;
+    background-size: cover;
+}
+.nine{
+    background-image: url(../images/vidimg.jpg);
+    background-position: center;
+    background-size: cover;
+    grid-area: 3 /2/span 1/span 2;
+}
+.ten{
+    background-image: url(../images/gallery8.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+/* ----------- */
+/* GEID GALLEY */
+/* ----------- */
+
+.owl-nav{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    font-size: 3rem;
+    font-weight: 700;
+    padding: 0rem 1rem;
+    justify-content: space-between;
+    color: #fff;
+    z-index: 1;
+}
+.owl-theme .owl-nav [class*=owl-]{
+    position: relative;
+    background: none !important;
+}
+.owl-theme .owl-nav [class*=owl-]::before{
+    content: '';
+    width: 60px;
+    height: 60px;
+
+    backdrop-filter: blur(10px);
+    position: absolute;
+    border-radius: 50%;
+    z-index: -1;
+    top: 0.1rem;
+    left: -1.3rem;
+}
+.myhead{
+    
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    
+}
+@media(max-width:991.989px){
+    .item1{
+
+        height: 60vh;
+
+    }
+    .item2{
+   
+        height: 60vh;
+    
+    }
+    .item3{
+  
+        height: 60vh;
+
+    }
+    .item4{
+
+        height: 60vh;
+  
+    }
+    .himimg{
+      
+        height: 70vh;
+       
+    }
+    .fashion{
+        color: var(--primary-color);
+        top: 180px;
+        left: 90px;
+        position: absolute;
+        font-weight: bold;
+    }
+    .fashion h1{
+        font-size: 2rem;
+        padding: 0 10px;
+    }
+    .himfashion{
+        color: var(--primary-color);
+       top: 600px;
+       left: 100px;
+
+    }
+    .himfashion h1{
+        font-size: 2rem;
+    }
+    .owlbtn{
+        top: 240px;
+        left: 100px;
+    }
+    .mystore h3{
+        font-size: 25px;
+        position: absolute;
+        /* top: -40px; */
+    }
+    .navcolor{
+        background-color: rgba(0,0,0,0.5)!important;
+     
+    }
+    .mydisplay{
+        display: none;
+    }
+    .brandmargin{
+        position: absolute;
+        bottom: 25px;
+    }
+    .mynavmargin{
+        position: absolute;
+        top: 10px;
+        /* left: 25px; */
+    }
+
+}
+
+
+@media(max-width:767.98px){
+    .item1{
+
+        height: 60vh;
+
+    }
+    .item2{
+   
+        height: 60vh;
+    
+    }
+    .item3{
+  
+        height: 60vh;
+
+    }
+    .item4{
+
+        height: 60vh;
+  
+    }
+    .himimg{
+      
+        height: 70vh;
+       
+    }
+    .fashion{
+        color: var(--primary-color);
+        top: 180px;
+        left: 90px;
+        position: absolute;
+        font-weight: bold;
+    }
+    .fashion h1{
+        font-size: 2rem;
+        padding: 0 10px;
+    }
+    .himfashion{
+        color: var(--primary-color);
+       top: 600px;
+       left: 100px;
+
+    }
+    .himfashion h1{
+        font-size: 2rem;
+    }
+    .owlbtn{
+        top: 240px;
+        left: 100px;
+    }
+    .mystore h3{
+        font-size: 25px;
+        position: absolute;
+        top: -40px;
+    }
+    .navcolor{
+        background-color: rgba(0,0,0,0.5)!important;
+     
+    }
+    .mydisplay{
+        display: none;
+    }
+
+}
+@media(max-width:575.98px){
+    .item1{
+
+        height: 50vh;
+
+    }
+    .item2{
+   
+        height: 50vh;
+    
+    }
+    .item3{
+  
+        height: 50vh;
+
+    }
+    .item4{
+
+        height: 50vh;
+  
+    }
+
+    .fashion{
+        color: var(--primary-color);
+        top: 150px;
+        left: 120px;
+        position: absolute;
+        font-weight: bold;
+    }
+    .fashion h1{
+        font-size: 1.4rem;
+        padding: 0 10px;
+    }
+    .himimg{
+      
+        height: 50vh;
+       
+    }
+    .himfashion{
+        color: var(--primary-color);
+       top: 465px;
+    
+       left: 120px;
+
+    }
+    .himfashion h1{
+        font-size: 1.4rem;
+    }
+    .owlbtn{
+        top: 200px;
+        left: 130px;
+    }
+
+    .fashion h1{
+        font-size: 1.4rem;
+    }
+    .navcolor{
+        background-color: rgba(0,0,0,0.5)!important;
+     
+    }
+    .mydisplay{
+        display: none;
+    }
+    .mystore h3{
+        font-size: 20px;
+        position: absolute;
+        top: -40px;
+    }
+
+    .parent{
+        display: grid;
+        grid-template-rows: 200px 250px 200px;
+        grid-template-columns: 1fr 1fr 1fr;
+     
+        grid-gap: 1rem;
+    
+    
+    } 
+
+    .one{
+    background-image: url(../images/bg2.jpg);
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    grid-area: 1 /2/span 1/span 2;
+}
+
+
+.two{
+    background-image: url(../images/shop-11.jpg);
+    background-position: center;
+    background-size: cover;
+    
+
+}
+.three{
+    background-image: url(../images/banner4.jpg);
+    background-position: center;
+    background-size: cover;
+    grid-area: 2/1/span 1/span 2;
+ 
+}
+.four{
+    background-image: url(../images/bg3.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+.five{
+    background-image: url(../images/banner2.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+.six{
+    background-image: url(../images/gallery8.jpg);
+
+    background-position: center;
+    background-size: cover;
+}
+.seven{
+    background-image: url(../images/left3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.eight{
+    background-image: url(../images/shop-88.jpg);
+ 
+    background-position: center;
+    background-size: cover;
+}
+.nine{
+    background-image: url(../images/vidimg.jpg);
+    background-position: center;
+    background-size: cover;
+    grid-area: 3 /2/span 1/span 2;
+}
+.ten{
+    background-image: url(../images/gallery8.jpg);
+    background-position: center;
+    background-size: cover;
+}
+}
+/* END OF ALL SCREEN REPONSIVE FROM 576PX TO 998PX */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* RESPONSINATOR RESPONSIVE SCREENS */
+
+
+@media(max-width:1024px){
+ 
+        .item1{
+            
+            height: 100vh;
+    
+        }
+        .item2{
+       
+            height: 100vh;
+        
+        }
+        .item3{
+      
+            height: 100vh;
+    
+        }
+        .item4{
+    
+            height: 100vh;
+      
+        }
+        .himimg{
+          
+            height: 100vh;
+           
+        }
+        .fashion{
+            color: var(--primary-color);
+            top: 300px;
+            left: 50px;
+            position: absolute;
+            font-weight: bold;
+        }
+        .fashion h1{
+            font-size: 1.4rem;
+            padding: 0 0px;
+        }
+        .himfashion{
+            color: var(--primary-color);
+           top: 300px;
+           left: 670px;
+    
+        }
+        .himfashion h1{
+            font-size: 2.3rem;
+        }
+        .owlbtn{
+            top: 380px;
+            left: 50px;
+        }
+    
+        .fashion h1{
+            font-size: 2.5rem;
+        }
+        .mystore h3{
+            font-size: 30px;
+            position: absolute;
+            top: -40px;
+        }
+        .mydisplay{
+            display: none;
+        }
+        .navcolor{
+            background-color: rgba(0,0,0,0.0)!important;
+         
+        }
+        .brandmargin{
+            position: absolute;
+            bottom: 25px;
+        }
+        .mynavmargin{
+            position: absolute;
+            top: 10px;
+            overflow-x: hidden;
+            /* left: 25px; */
+        }
+
+}
+@media(max-width:992px){
+    .mydisplay{
+        display: none;
+    }
+
+}
+@media(max-width:768.98px){
+    .item1{
+
+        height: 50vh;
+
+    }
+    .item2{
+   
+        height: 50vh;
+    
+    }
+    .item3{
+  
+        height: 50vh;
+
+    }
+    .item4{
+
+        height: 50vh;
+  
+    }
+    .himimg{
+      
+        height: 50vh;
+       
+    }
+    .fashion{
+        color: var(--primary-color);
+        top: 220px;
+        left: 120px;
+        position: absolute;
+        font-weight: bold;
+    }
+    .fashion h1{
+        font-size: 1.4rem;
+        padding: 0 10px;
+    }
+    .himfashion{
+        color: var(--primary-color);
+       top: 700px;
+       left: 120px;
+
+    }
+    .himfashion h1{
+        font-size: 2.5rem;
+    }
+    .owlbtn{
+        top: 280px;
+        left: 130px;
+    }
+
+    .fashion h1{
+        font-size: 2.5rem;
+    }
+    .mystore h3{
+        font-size: 25px;
+        position: absolute;
+        top: -40px;
+    }
+    .navcolor{
+        background-color: rgba(0,0,0,0.5)!important;
+     
+    }
+
+}
+@media(max-width:736.98px){
+    .item1{
+
+        height: 100vh;
+
+    }
+    .item2{
+   
+        height: 100vh;
+    
+    }
+    .item3{
+  
+        height: 100vh;
+
+    }
+    .item4{
+
+        height: 100vh;
+  
+    }
+    .himimg{
+      
+        height: 100vh;
+       
+    }
+    .fashion{
+        color: var(--primary-color);
+        top: 180px;
+        left: 120px;
+        position: absolute;
+        font-weight: bold;
+    }
+    .fashion h1{
+        font-size: 1.4rem;
+        padding: 0 10px;
+    }
+    .himfashion{
+        color: var(--primary-color);
+       top: 550px;
+       left: 120px;
+
+    }
+    .himfashion h1{
+        font-size: 2rem;
+    }
+    .owlbtn{
+        top: 240px;
+        left: 130px;
+    }
+
+    .fashion h1{
+        font-size: 2rem;
+    }
+    .mystore h3{
+        font-size: 25px;
+        position: absolute;
+        top: -40px;
+    }
+    .navcolor{
+        background-color: rgba(0,0,0,0.5)!important;
+     
+    }
+
+}
+@media(max-width:684px){
+    .item1{
+
+        height: 100vh;
+
+    }
+    .item2{
+   
+        height: 100vh;
+    
+    }
+    .item3{
+  
+        height: 100vh;
+
+    }
+    .item4{
+
+        height: 100vh;
+  
+    }
+    .himimg{
+      
+        height: 100vh;
+       
+    }
+    .fashion{
+        color: var(--primary-color);
+        top: 180px;
+        left: 120px;
+        position: absolute;
+        font-weight: bold;
+    }
+    .fashion h1{
+        font-size: 1.4rem;
+        padding: 0 10px;
+    }
+    .himfashion{
+        color: var(--primary-color);
+       top: 550px;
+       left: 120px;
+
+    }
+    .himfashion h1{
+        font-size: 2rem;
+    }
+    .owlbtn{
+        top: 240px;
+        left: 130px;
+    }
+
+    .fashion h1{
+        font-size: 2rem;
+    }
+    .mystore h3{
+        font-size: 25px;
+        position: absolute;
+        top: -40px;
+    }
+    .navcolor{
+        background-color: rgba(0,0,0,0.5)!important;
+     
+    }
+
+}
+@media(max-width:667.98px){
+    .item1{
+
+        height: 100vh;
+
+    }
+    .item2{
+   
+        height: 100vh;
+    
+    }
+    .item3{
+  
+        height: 100vh;
+
+    }
+    .item4{
+
+        height: 100vh;
+  
+    }
+    .himimg{
+      
+        height: 100vh;
+       
+    }
+    .fashion{
+        color: var(--primary-color);
+        top: 150px;
+        left: 120px;
+        position: absolute;
+        font-weight: bold;
+    }
+    .fashion h1{
+        font-size: 1.4rem;
+        padding: 0 10px;
+    }
+    .himfashion{
+        color: var(--primary-color);
+       top: 450px;
+       left: 120px;
+
+    }
+    .himfashion h1{
+        font-size: 2rem;
+    }
+    .owlbtn{
+        top: 200px;
+        left: 130px;
+    }
+
+    .fashion h1{
+        font-size: 2rem;
+    }
+    .mystore h3{
+        font-size: 25px;
+        position: absolute;
+        top: -40px;
+    }
+    .navcolor{
+        background-color: rgba(0,0,0,0.5)!important;
+     
+    }
+
+}
+@media(max-width:414.98px){
+    .item1{
+
+        height: 50vh;
+
+    }
+    .item2{
+   
+        height: 50vh;
+    
+    }
+    .item3{
+  
+        height: 50vh;
+
+    }
+    .item4{
+
+        height: 50vh;
+  
+    }
+    .himimg{
+      
+        height: 50vh;
+       
+    }
+    .fashion{
+        color: var(--primary-color);
+        top: 150px;
+        left: 35px;
+        position: absolute;
+        font-weight: bold;
+    }
+    .fashion h1{
+        font-size: 1.4rem;
+        padding: 0 10px;
+    }
+    .himfashion{
+        color: var(--primary-color);
+       top: 500px;
+       left: 45px;
+
+    }
+    .himfashion h1{
+        font-size: 1.4rem;
+    }
+    .owlbtn{
+        top: 200px;
+        left: 120px;
+    }
+
+    .fashion h1{
+        font-size: 1.4rem;
+    }
+    .mystore h3{
+        font-size: 20px;
+        position: absolute;
+        top: -40px;
+    }
+    .navcolor{
+        background-color: rgba(0,0,0,0.5)!important;
+     
+    }
+}
+
+@media(max-width:412px){
+    .item1{
+
+        height: 50vh;
+
+    }
+    .item2{
+   
+        height: 50vh;
+    
+    }
+    .item3{
+  
+        height: 50vh;
+
+    }
+    .item4{
+
+        height: 50vh;
+  
+    }
+    .himimg{
+      
+        height: 50vh;
+       
+    }
+    .fashion{
+        color: var(--primary-color);
+        top: 150px;
+        left: 35px;
+        position: absolute;
+        font-weight: bold;
+    }
+    .fashion h1{
+        font-size: 1.4rem;
+        padding: 0 10px;
+    }
+    .himfashion{
+        color: var(--primary-color);
+       top: 480px;
+       left: 45px;
+
+    }
+    .himfashion h1{
+        font-size: 1.4rem;
+    }
+    .owlbtn{
+        top: 200px;
+        left: 115px;
+    }
+
+    .fashion h1{
+        font-size: 1.4rem;
+    }
+    .mystore h3{
+        font-size: 20px;
+        position: absolute;
+        top: -40px;
+    }
+
+    .navcolor{
+        background-color: rgba(0,0,0,0.5)!important;
+     
+    }
+}
+
+@media(max-width:375.98px){
+
+    /* .item1{
+
+        height: 50vh;
+
+    }
+    .item2{
+   
+        height: 50vh;
+    
+    }
+    .item3{
+  
+        height: 50vh;
+
+    }
+    .item4{
+
+        height: 50vh;
+  
+    }
+
+    .fashion{
+        color: var(--primary-color);
+        top: 150px;
+        left: 35px;
+        position: absolute;
+        font-weight: bold;
+    }
+    .fashion h1{
+        font-size: 1.4rem;
+        padding: 0 10px;
+    }
+    .himimg{
+      
+        height: 50vh;
+       
+    }
+    .himfashion{
+        color: var(--primary-color);
+       top: 500px;
+    
+       left: 45px;
+
+    }
+    .himfashion h1{
+        font-size: 1.4rem;
+    }
+    .owlbtn{
+        top: 200px;
+        left: 115px;
+    }
+
+    .fashion h1{
+        font-size: 1.4rem;
+    }
+    .navcolor{
+        background-color: rgba(0,0,0,0.5)!important;
+     
+    } */
+
+}
+
+/* END OF RESPONSINATOR RESPONSIVE SCREENS */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* --------------- */
+/* CARDS FOR SHOP */
+/* --------------- */
+.myshop{
+    width: 200px;
+    position: relative;
+
+
+}
+.para{
+    width: 275px!important;
+    height: 40px;
+    position: absolute;
+    top: 340px;
+    left: 120px;
+    transition: .3s;
+    /* visibility: hidden; */
+    opacity: 0;
+    background-color: black;
+    z-index: 2;
+}
+.para:hover{
+    top: 315px;
+    opacity: 1;
+    visibility: visible!important;
+    z-index: 3;
+}
+
+
+
+
+/* --------------- */
+/* CARDS FOR SHOP */
+/* --------------- */
+
+
+
+
+
+
+/* ----------------- */
+/* MY HANDPICKED */
+/* ----------------- */
+.mywith{
+    font-weight: bold;
+}
+.myhandpicked{
+    text-align: center;
+    
+}
+.mybag{
+    text-align: center;
+    text-decoration: none;
+    font-weight: 500;
+    display: block;
+    font-size: 1.2rem;
+    color: var(--secondary-color);
+    transition: .4s!important;
+}
+.mybag:hover{
+    color: var(--orange-color);
+}
+.circleimg{
+    width: 150px;
+}
+
+.hover{
+    overflow: hidden;
+    position: relative;
+}
+
+
+.box-effects{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: rgba(0,0,0,0.5)!important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    position: absolute;
+    top: 1.5rem;
+    left: 3rem;
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s;
+    transform: rotateY(90deg);
+}
+.box-effects h4{
+    transform: rotateY(180deg);
+    color:var(--orange-color);
+    
+}
+.hover:hover .box-effects{
+    opacity: 1;
+    visibility: visible;
+    transform: rotateY(180deg);
+}
+
+
+
+/* ----------------- */
+/* END OF MY HANDPICKED */
+/* ----------------- */
+
+/* ----------------- */
+/* ALl BRANDED WOMEN'S */
+/* ----------------- */
+
+.myvidhead{
+    font-weight: bold;
+}
+
+.myvid{
+    width: 950px;
+    height: 400px!important;
+    background-image: center;
+    object-fit: cover;
+    background-size: cover!important;
+}
+.vidtext{
+    padding-bottom: 20px;
+}
+
+/* ----------------- */
+/* END OF ALl BRANDED WOMEN'S */
+/* ----------------- */
+
+
+/* ------------- */
+/* ---BLOG POSTS */
+/* ------------- */
+.card{
+    float: left!important;
+}
+
+
+/* ------------- */
+/* ---BLOG POSTS */
+/* ------------- */
+
+
+
+/* ----------------- */
+/* ALL BARANDED MENS */
+/* ----------------- */
+.mybrandcol{
+    margin-top: 3rem!important;
+}
+.mybrand{
+    margin-top: 100px!important;
+    font-weight: bold;
+
+}
+.brandimg{
+    background: url(../images/1.jpg);
+    background-size: cover;
+    padding-bottom: 400px!important;
+    margin-top: 70px!important;
+    border-radius: 10px;
+}
+.blackbtn {
+    text-decoration: none;
+    padding: 15px 35px;
+    font-weight: 600;
+    border-radius: 40px;
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    transition: .5s;
+}
+.blackbtn:hover{
+    background-color: var(--orange-color);
+    color: var(--primary-color);
+}
+/* ------------------------ */
+/* END OF ALL BARANDED MENS */
+/* ------------------------ */
+
+/* -------------- */
+/* BLOGS POSTS */
+/* -------------- */
+.latest{
+    text-align: center;
+}
+
+.myCard{
+    overflow: hidden;
+}
+.bgEffect{
+    background-color: red;
+    height: 150px;
+    overflow: hidden;
+}
+.bgEffect img{
+    width: 100%;
+    transition: .3s;
+}
+.myCard:hover .bgEffect img{
+    transform: scale(1.2);
+}
+
+
+
+
+/* -------------- */
+/* END OF BLOGS POSTS */
+/* -------------- */
+
+/* ------------- */
+/* TONS OF PRODUCTS */
+/* ------------- */
+.tonhead{
+    color: var(--primary-color);
+    font-weight: bold;
+    padding: 30px 445px!important;
+
+}
+.tontext{
+    color: var(--primary-color);
+    padding: 10px 400px;
+    padding-bottom: 50px;
+ 
+}
+.shopbtn {
+    text-decoration: none;
+    padding: 15px 30px;
+    font-weight: 600;
+    border-radius: 40px;
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    transition: .5s;
+}
+.shopbtn:hover{
+    background-color: var(--orange-color);
+    color: var(--primary-color);
+}
+.tonimg{
+    background: url(../images/tonimg.jpg) no-repeat bottom;
+    background-size: cover;
+    text-align: center;
+    padding: 100px 0;
+}
+
+/* ----------------------- */
+/* End of TONS OF PRODUCTS */
+/* ---------------------- */
+
+
+
+
+/* ------------ */
+/* JOIN US FOR FREE */
+/* ------------ */
+
+.myemail{
+width: 200px!important;
+ outline: none!important;
+ border-radius: 30px 0px 0px 30px!important;
+ background: rgb(247, 244, 244);
+ border: none!important;
+ padding: 0 15px!important;
+ width: 100%;
+
+ 
+
+}
+.mysize{
+    font-weight: bold!important;
+ 
+
+}
+.myjo{
+    border-radius: 0px 30px 30px 0px!important;
+    background: var(--orange-color)!important;
+    color: var(--primary-color)!important;
+    padding-left: 55px!important;
+    cursor: pointer;
+    font-weight: bold!important;   
+}
+.joinimg{
+    background: url(../images/img11.jpg);
+    background-size: cover!important;
+    object-fit: cover!important;
+    height: 800px;
+}
+.input-group{
+    margin: auto!important;
+}
+.myrounde{
+    border-radius: 20px 0px 0px 20px!important;
+    background-color: red!important;
+}
+
+
+/* ------------ */
+/* JOIN US FOR FREE */
+/* ------------ */
+
+/* -------------------- */
+/* FOOTER ------------*/
+/* ------ -----------*/
+.myhover{
+    color: #7a7b7c!important;
+    transition: .5s;
+}
+.myhover:hover{
+    cursor: pointer;
+    color: var(--orange-color)!important;
+}
+.mycolor{
+    color: var(--primary-color);
+    font-weight: bold;
+}
+.footercolor{
+    background: #232020;
+    /* color: #212529; */
+
+}
+.footertext{
+    color: #7a7b7c!important;
+
+}
+.myicon{
+    color: var(--primary-color);
+    padding: 10px;
+    background-color: rgb(54, 54, 54);
+    border-radius: 50%;
+    transition: .5s;
+}
+.myicon:hover{
+    background: var(--orange-color)!important;
+}
+.mysubfooter{
+    display: flex;
+    justify-content: end;
+
+}
+.shopcard{
+    cursor: pointer;
+}
+/* ------------------- */
+/* END OF  FOOTER -----*/
+/* --------------- -----*/
+
+.up:before{
+    content: '\f062';
+    font-family: fontawesome;
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    bottom: 4rem!important;
+    right: 2rem;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    z-index: 1000;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* this is slider */
+
+.con{
+    min-height: 90vh; 
+    display: flex;
+    justify-content: start;
+    align-items: end;
+}
+.slider1{
+    background: url(../images/banner1.jpg)!important;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.slider2{
+    background: url(../images/banner1.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.slider3{
+    background: url(../images/banner1.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.slider4{
+    background: url(../images/banner1.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.owl-nav{
+    width: 100%;
+    color: var(--primary-color);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    font-size: 2.5rem;
+    font-weight: 700;
+    padding: 0rem 0.5rem;
+    justify-content: space-between;
+}
+.owl-theme .owl-nav [class*=owl-]{
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0rem 0rem !important;
+    border-radius: 50%;
+    color: var(--primary-color) !important;
+    background-color: var(--secondary-color) !important;
+}
+.box{
+    max-width: 550px;
+    box-sizing: border-box;
+    padding: 3rem;
+    margin: 6rem 2rem;
+    border-radius: 60px 0 60px 0;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: var(--secondary-color);
+}
+.box h1{
+    color: var(--primary-color);
+    font-size: 2rem;
+    font-family: 'Lora', serif;
+    letter-spacing: 2px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.box p{
+    color: var(--grey-color);
+    font-family: 'Roboto', sans-serif;
+    margin: 1.3rem 0;
+}
+.box .btn{
+    border: 0;
+    color: #fff;
+    padding: 0.5rem 2rem;
+    background-color: var(--green-color);
+    transition: 1s;
+}
+.box .btn:hover{
+    background-color: rgba(10, 161, 71, 0.929);
+}
+
+
+
+
+
+
+@media(max-width:1299.98px){
+
+    
+
+}
+
+@media(max-width:1199.98px){
+    .myjo{
+ 
+        padding-left: 25px!important;
+        
+    }
+    .tontext{
+    
+        padding: 15px 100px;
+     
+    }
+    .tonhead{
+        font-size: 2.1rem;
+        margin-top: 0px!important;
+        padding: 0px 10px!important;
+    
+    }
+    
+    .tonimg{
+        padding-top: 10px;
+        padding-bottom: 60px;
+    }
+    
+    .mybrand{
+        font-size: 1.8rem!important;
+    }
+    .brandimg{
+        margin-top: 45px!important;
+    }
+    .cardtext{
+        font-size: .9rem;
+        padding: 0px 0px!important;
+        margin: 0 0rem!important;
+    
+        
+    }
+    /* .mycard{
+        margin: 0px 12px!important;
+        padding: 0px!important;
+    }
+    .datetext{
+        font-size: .9rem!important;
+    }
+.effect:before{
+    content: '';
+    width: 120px;
+    height: 120px;
+    left: 25px;
+    top: 25px;
+} */
+.myvidhead{
+    font-size: 1.9rem;
+
+}
+
+.box-effects{
+       
+    position: absolute;
+    top: 1.5rem;
+    left: 1.5rem;
+
+}
+.leveltext{
+    font-size: 16px!important;
+}
+.cardpad{
+    padding: 0px;
+}
+.mydec{
+    font-size: 15px!important;
+}
+.myCard{
+    height: 200px;
+}
+
+}
+@media(max-width:991.98px){
+ .mysubfooter{
+    display: flex;
+    justify-content: start;
+  
+ } 
+ .myjo{
+ 
+    padding-left: 65px!important;
+    
+}
+.tontext{
+    
+    padding: 15px 10px;
+ 
+}
+.tonhead{
+    font-size: 2.1rem;
+    margin-top: 0px!important;
+    padding: 0px 10px!important;
+
+}
+
+.tonimg{
+    padding-top: 10px;
+    padding-bottom: 60px;
+}
+.tonhead{
+    font-size: 1.3rem;
+    margin-top: 0px!important;
+    padding: 0px 10px!important;
+
+}
+.mybrand{
+    font-size: 1.8rem!important;
+    margin-top: 0px!important;
+}
+/* .cardtext{
+    font-size: 1.2rem;
+    margin: 0 0px!important;
+}
+.mycard{
+    margin: 10px 12px!important;
+} */
+.circleimg{
+    width: 220px;
+}
+
+.box-effects{
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    top: 1.8rem;
+    left: 2rem;
+
+}
+.box-effects h4{
+    font-size: 1.8rem;
+}
+.leveltext{
+    font-size: 21px!important;
+}
+.cardpad{
+    padding: 0px;
+}
+.myCard{
+    height: auto;
+}
+.bgEffect{
+    height: 150px;
+}
+}
+
+@media(max-width:767.98px){
+    .myjo{
+        padding-left: 45px!important;
+        
+    }
+    .joinimg{
+        height: 650px!important;
+    }
+    .tontext{
+    
+        padding: 15px 35px;
+     
+    }
+    .tonhead{
+        font-size: 2.1rem;
+        margin-top: 0px!important;
+        padding: 0px 10px!important;
+    
+    }
+    
+    .tonimg{
+        padding-top: 10px;
+        padding-bottom: 60px;
+    }
+    .mybrandcol{
+        margin-top: 3rem!important;
+    }
+    .mybrand{
+        margin-top: 0px!important;
+        font-size: 2rem!important;
+    
+    }
+    .brandimg{
+        background: url(../images/1.jpg);
+        background-size: cover;
+        padding-bottom: 350px!important;
+        margin-top: 70px!important;
+    }
+    
+    .myblog{
+        font-size: 1.7rem;
+    }
+    /* .mycard{
+        margin: 10px 0!important;
+    } */
+    .circleimg{
+        width: 220px;
+    }
+    .box-effects{
+        width: 180px;
+        height: 180px;
+        position: absolute;
+        top: 1.8rem;
+        left: 2.8rem;
+    
+    }
+    .box-effects h4{
+        font-size: 1.8rem;
+    }
+    .leveltext{
+        font-size: 21px!important;
+    }
+    .cardpad{
+        padding: 0 50px;
+    }
+    .myCard{
+        height: auto;
+    }
+    .bgEffect{
+        height: auto;
+    }
+}
+
+@media(max-width:575.98px){
+    .mysubfooter{
+        font-size: 15px;
+        display: flex;
+        justify-content: start;
+    }
+    .joinimg{
+        height: 380px!important;
+    }
+    .tontext{
+    
+    padding: 15px 20px;
+ 
+}
+.myhover{
+    font-size: 15px;
+}
+.footertext{
+    font-size: 14px;
+}
+.tonhead{
+    font-size: 1.3rem;
+    margin-top: 0px!important;
+    padding: 0px 10px!important;
+
+}
+
+.tonimg{
+    padding-top: 10px;
+    padding-bottom: 60px;
+}
+.mybrandcol{
+    margin-top: 3rem!important;
+}
+.mybrand{
+    margin-top: 0px!important;
+    font-size: 1.2rem!important;
+
+}
+/* .mycard{
+    margin: 10px 0!important;
+} */
+.brandimg{
+    background: url(../images/1.jpg);
+    background-size: cover;
+    padding-bottom: 250px!important;
+    margin-top: 70px!important;
+}
+.mywith{
+    font-size: 1.4rem;
+}    
+.circleimg{
+    width: 150px;
+}
+.box-effects{
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: 1.2rem;
+    left: 2rem;
+
+}
+.box-effects h4{
+    font-size: 1.2rem;
+}
+.leveltext{
+    font-size: 18px!important;
+}
+
+.cardpad{
+    padding: 0px;
+}
+.myCard{
+    height: auto;
+}
+}
+
+@media(max-width:419.98px){
+    .mysubfooter{
+    display: flex;
+    justify-content: start;
+  
+}
+.myname{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 3.5rem!important;
+}
+.mywomen{
+    font-size: 22px!important;
+}
+.mysize{
+    font-size: 1.3rem!important;
+
+}
+.myjo{
+    padding-left: 20px!important;
+}
+.joinimg{
+    height: 380px!important;
+}
+/* .mycard{
+    margin: 10px 0!important;
+}
+.cardtext{
+    font-size: 1rem;
+    margin: 0 0px!important;
+}
+.datetext{
+    font-size: .9rem;
+} */
+.myblog{
+    font-size: 1.5rem;
+}
+.circleimg{
+    width: 140px;
+}
+.mywith{
+    font-size: 1.4rem;
+}
+.myvidhead{
+    font-size: 1.4rem;
+}
+
+}
+
+
+ @media(max-width:411.98px){
+    .box-effects{
+        width: 120px;
+        height: 120px;
+        position: absolute;
+        top: 1.2rem;
+        left: 1.6rem;
+    
+    }
+    
+} 
+ @media(max-width:374.98px){
+  .myname{
+
+      line-height: 3.5rem!important;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .mywomen{
+      font-size: 10px!important;
+  }
+  .joinimg{
+    height: 380px!important;
+}
+.tontext{
+    
+    padding: 15px 20px;
+ 
+}
+/* .box-effects{
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: 1.2rem!important;
+    left: 2rem;
+
+} */
+
+
+}
+ 
+
+
+
+
+
+
+
+
